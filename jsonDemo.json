@@ -1,0 +1,41 @@
+{
+    "CommentsAboutJson" : {"comments":"Json doesn't support comments.Keys should be string or should have double quotes.JSon is similar to JS object that it can be converted to each other.ONly diff is in JS objects Keys wont be in double quotes."},
+    "keyOfArrayvalues" :{    
+        "userDetails": [   
+            {
+                "name":"Max",
+                "age":25
+            },
+
+            {
+                "name":"Nivya",
+                "age":20
+            },
+
+            {
+                "name":"Jane",
+                "age":30
+            }  
+        ]
+    },    
+    "Alex": {
+        "email": "alex@alex.com",
+        "skills": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        "age": 20,
+        "isLoggedIn": false
+    },
+    "Asab": {
+        "email": "asab@asab.com",
+        "skills": [
+            "HTML",
+            "JavaScript",
+            "Node"
+        ],
+        "age": 25,
+        "isLoggedIn": false
+    }       
+}

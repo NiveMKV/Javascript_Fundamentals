@@ -1,0 +1,8 @@
+{
+    "fn":"abc",
+    "desiredPlaces": [
+                     {"countr":"Ind","city":"chennai"},
+                     {"countr":"Amer","city":"wash"}
+                    ]
+
+}
