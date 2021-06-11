@@ -1,6 +1,6 @@
 /**
- * for of loop used to iterate arrays,strings (any iterables(ArrayObjects)). 
- * for ,while,do while same as other pg.lang
+ * for of loop used to iterate arrays, keys of an object.
+ * for , while, do while same as other pg.lang
  */
 const forOfExample =[1,2,3,4,5]
 const countries =['India','America','London']
@@ -20,7 +20,8 @@ for(let user of forOfArrayObject){
             console.log(user.name)
         }
 }
-//forEach.//forEach are used only for arrays.
+
+//forEach are used only for arrays.
 const arraySample = ["chennai",'Banglore','Mumbai','Hyderabad']
 arraySample.forEach(function(eachItem, index, arraySample){
     console.log(eachItem)
@@ -28,6 +29,7 @@ arraySample.forEach(function(eachItem, index, arraySample){
     console.log(arraySample)
 })
 
+//forIn loop.
 let forInSample = {
    name:'Helen',
    country : 'India'
@@ -37,6 +39,7 @@ for (const iterator in forInSample) {
     console.log(iterator)
 }
 
+//Conventional for loop.
 for (let i=0; i<countries.length; i++){
     console.log(countries[i])
 }
