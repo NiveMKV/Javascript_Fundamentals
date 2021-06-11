@@ -44,32 +44,32 @@ noNameFunction()//Expression function
   })(2,3,4)
 
 //-----------------------------------------------------------------
+
 /**Some other functions:
-  function take other function as a callback
-  Will use setTimeout
+  function take other function as a parameter like a callback function.
+  Will use setTimeout for example.
 */
   
-  function callBackFunc(){
+function callBackFunc(){
     console.log("I will be executed after waiting for 5 secs.!!!")
-  } 
-//   setTimeout(callBackFunc, 5000)
-/**
- *  * 
-    setTimeout allows us to run a function once after the interval of time.
-    setInterval allows us to run a function repeatedly, starting after the interval of time, 
-    then repeating continuously at that interval.
+} 
+setTimeout(callBackFunc, 5000)
 
- */
-  function anotherCallBackFunc(){
+/**
+ *  setTimeout allows us to run a function once after the specified interval of time.
+ *  setInterval allows us to run a function repeatedly, starting after the given interval of time then repeating continuously at regular interval. 
+ **/
+
+function aCallBackFunc(){
       let date = new Date();
       console.log(date.toLocaleTimeString())
-  }  
+}  
 
 function clearIntervalFunc(){
     clearInterval(setIntervalID)
 }
 
-const setIntervalID=  setInterval(anotherCallBackFunc,1000)
+const setIntervalID =  setInterval(aCallBackFunc,1000)
 
 setTimeout(clearIntervalFunc, 20000);
 
