@@ -29,8 +29,8 @@ console.log(result)
 
 /**
  * Sort expects compare function which return 0,1,-1 to sort the numbers.
- * sort function sorts the values as string hence 25 is greater than 100
- * if (25-100) =-75 and hence 25 is now treated as lower value than 100
+ * sort function sorts the values as string hence 25('2') is greater than 100('1').
+ * if comapre function is used inside sort function then, (a-b) ex: (25-100) =-75 and hence 25 is now treated as lower value than 100
  */
 const sortNumbersArray =[9.81, 3.14, 100, 37]
 
