@@ -10,8 +10,8 @@ function funcTwo(n=false){
     return new Promise( (resolve, reject) =>{
         setTimeout(()=>{
         //console.log('This is function number 2')
-        let promiseReturned = n;
-            if(promiseReturned){
+        let flag = n;
+            if(flag){
                 resolve("Promise is resolved!")
             }else{
                 reject(new Error('Promise is not resolved'))
@@ -34,7 +34,7 @@ function funcThree(){
 // async function finalCall(){
 //     funcOne()
 //     // let result = await
-//      let result = await funcTwo()
+//      let result = await funcTwo(true)
 //     console.log(result)
 //     funcThree()
 // }
