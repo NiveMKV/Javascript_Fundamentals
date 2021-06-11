@@ -73,17 +73,3 @@ const setIntervalID =  setInterval(aCallBackFunc,1000)
 
 setTimeout(clearIntervalFunc, 20000);
 
-
-
-
-
-
-
-
-  
-
- 
-
-
-
-
